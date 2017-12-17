@@ -12,8 +12,11 @@ apt-get install mysql-client mysql-server -y
 # Harden MySQL security
 mysql_secure_installation
 
-# Create the Sakila database
+# Create the World database
 mysql -uroot -plimber  --execute="CREATE DATABASE World;"
 
 # Upload the data to the database
 mysql -uroot -plimber World < world.sql
+
+# Set up the dd-agent + MySQL integration
+bash agent_install.sh
