@@ -14,7 +14,7 @@ mysql_secure_installation #be sure to harden your mysql security
 cd /sakila-db/
 
 # Upload the sample databases to the database
-mysql -u root -plimber  --execute="CREATE DATABASE Sakila; SOURCE sakila-schema.sql; SOURCE sakila-data.sql;"
+mysql -u root -plimber  --execute="CREATE DATABASE Sakila; USE Sakila; SOURCE sakila-schema.sql; SOURCE sakila-data.sql;"
 
 # Navigate to web directory for LAMP stack
 cd /var/www/html
