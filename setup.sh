@@ -18,5 +18,8 @@ mysql -uroot -plimber  --execute="CREATE DATABASE World;"
 # Upload the data to the database
 mysql -uroot -plimber World < world.sql
 
+# Install curl
+apt-get install curl
+
 # Set up the dd-agent + MySQL integration
 bash agent_install.sh
