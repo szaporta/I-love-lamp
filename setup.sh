@@ -23,9 +23,3 @@ mysql -uroot -plimber Sakila < sakila-schema.sql
 
 # Upload the data for the Sakila database
 mysql -uroot -plimber Sakila < sakila-data.sql
-
-# Navigate to web directory for LAMP stack
-cd /var/www/html
-
-# Create PHP file to test
-echo '<?php phpinfo(); ?>' > info.php
