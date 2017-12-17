@@ -12,9 +12,6 @@ apt-get install mysql-client mysql-server -y
 # Harden MySQL security
 mysql_secure_installation
 
-# Navigate to the directory with the sample databases in it, for automated loading
-cd sakila-db
-
 # Create the Sakila database
 mysql -uroot -plimber  --execute="CREATE DATABASE World;"
 
