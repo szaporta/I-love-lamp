@@ -1,5 +1,11 @@
 # This sets up a LAMP stack for you in Ubuntu (I used Ubuntu Xenial - 16.04)
 
+# Install git if you haven't yet
+apt install git
+
+# Clone repository to local directory
+git clone https://github.com/szaporta/I-love-lamp.git
+
 # Install Apache
 apt-get install apache2 -y
 
