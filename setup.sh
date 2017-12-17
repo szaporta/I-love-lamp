@@ -16,10 +16,7 @@ mysql_secure_installation
 cd sakila-db
 
 # Create the Sakila database
-mysql -uroot -plimber  --execute="CREATE DATABASE Sakila;"
+mysql -uroot -plimber  --execute="CREATE DATABASE World;"
 
-# Upload the schema for the Sakila database
-mysql -uroot -plimber Sakila < sakila-schema.sql
-
-# Upload the data for the Sakila database
-mysql -uroot -plimber Sakila < sakila-data.sql
+# Upload the data to the database
+mysql -uroot -plimber World < world.sql
