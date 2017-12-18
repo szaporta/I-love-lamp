@@ -12,5 +12,5 @@ sudo /etc/init.d/datadog-agent restart
 # Change directory to where YAML files are located
 cd /etc/dd-agent/conf.d
 
-# Set up mysql.yaml file
-mv mysql.yaml.example mysql.yaml
+# Set up mysql.yaml file - copy example file to yaml file
+cp mysql.yaml.example mysql.yaml
