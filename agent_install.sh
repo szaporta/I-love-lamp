@@ -9,5 +9,8 @@ mysql -u root -plimber mysql < dd-user_mysql_setup.sql
 # Restart Agent 
 sudo /etc/init.d/datadog-agent restart
 
+# Change directory to where YAML files are located
+cd /etc/dd-agent/conf.d
+
 # Set up mysql.yaml file
 mv mysql.yaml.example mysql.yaml
