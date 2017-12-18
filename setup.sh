@@ -16,7 +16,7 @@ mysql_secure_installation
 mysql -uroot -plimber mysql < world.sql
 
 # Install curl
-apt-get install curl
+apt-get install curl -y
 
 # Set up the dd-agent + MySQL integration
 bash agent_install.sh
