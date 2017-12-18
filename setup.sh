@@ -13,7 +13,7 @@ apt-get install mysql-client mysql-server -y
 mysql_secure_installation
 
 # Upload the data to the database
-mysql -uroot -plimber World < world.sql
+mysql -uroot -plimber mysql < world.sql
 
 # Install curl
 apt-get install curl
