@@ -12,7 +12,7 @@ apt-get install mysql-client mysql-server -y
 # Harden MySQL security - not necessary at the moment
 # mysql_secure_installation   
 
-# Upload the data to the database
+# Upload the example data to the database
 mysql -uroot -pdemodog mysql < world.sql
 
 # Install curl
