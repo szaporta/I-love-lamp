@@ -16,3 +16,4 @@ cd /etc/dd-agent/conf.d
 cp mysql.yaml.example mysql.yaml
 
 # Python script to replace certain lines with variables
+python yamlread.py
