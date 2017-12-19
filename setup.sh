@@ -10,10 +10,10 @@ apt-get install php7.0 php7.0-cli libapache2-mod-php7.0 php-mcrypt php-mysql -y
 apt-get install mysql-client mysql-server -y
 
 # Harden MySQL security
-mysql_secure_installation
+# mysql_secure_installation   not necessary at the moment
 
 # Upload the data to the database
-mysql -uroot -plimber mysql < world.sql
+mysql -uroot -pdemodog mysql < world.sql
 
 # Install curl
 apt-get install curl -y
