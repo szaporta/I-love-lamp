@@ -3,8 +3,6 @@ yaml_list = []
 with open('/etc/dd-agent/conf.d/mysql.yaml', 'r') as file_read:
     for line in file_read:
         yaml_list.append(line)
-        
-print(yaml_list)
 
 with open('/etc/dd-agent/conf.d/mysql.yaml', 'w') as file_write:
     for yaml_line in yaml_list:
