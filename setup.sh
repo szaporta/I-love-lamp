@@ -12,8 +12,8 @@ apt-get install mysql-client mysql-server -y
 # Harden MySQL security - not necessary at the moment
 # mysql_secure_installation   
 
-# Upload the example data to the database
-mysql -uroot -pdemodog mysql < world.sql
+# Upload the example data to the database - no pw used for root, as this is just for VMs but DON'T MAKE THAT A HABIT >:(
+mysql -uroot mysql < world.sql
 
 # Install curl
 apt-get install curl -y
