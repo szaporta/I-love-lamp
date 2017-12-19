@@ -14,3 +14,5 @@ cd /etc/dd-agent/conf.d
 
 # Set up mysql.yaml file - copy example file to yaml file
 cp mysql.yaml.example mysql.yaml
+
+# Python script to replace certain lines with variables
