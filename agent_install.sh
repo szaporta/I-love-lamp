@@ -12,5 +12,8 @@ sudo /etc/init.d/datadog-agent restart
 # Set up mysql.yaml file - copy example file to yaml file
 cp /etc/dd-agent/conf.d/mysql.yaml.example /etc/dd-agent/conf.d/mysql.yaml
 
+# Set up apache.yaml file - copy example file to yaml file
+cp /etc/dd-agent/conf.d/apache.yaml.example /etc/dd-agent/conf.d/apache.yaml
+
 # Python script to replace certain lines with variables
 python yamlread.py 
