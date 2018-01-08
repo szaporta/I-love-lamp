@@ -7,4 +7,4 @@ while True:
     num_concurrent_requests = num_requests - 1
 
     # Use apache bench to test concurrent requests
-    os.system("ab -n" + num_requests + " -c" + num_concurrent_requests + " http://localhost/server-status?auto")
+    os.system("ab -n" + str(num_requests) + " -c" + str(num_concurrent_requests) + " http://localhost/server-status?auto")
