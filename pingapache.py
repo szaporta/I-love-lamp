@@ -3,7 +3,7 @@ import random
 
 #Run this in an infinite loop
 while True:
-    num_requests = random.randint(1,501)
+    num_requests = random.randint(1,301)
     num_concurrent_requests = num_requests - 1
 
     # Use apache bench to test concurrent requests
