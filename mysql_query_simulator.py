@@ -38,4 +38,4 @@ sql_queries = ['SELECT COUNT(*) FROM city;', 'SELECT COUNT(*) FROM country;', 'S
 
 print ('mysql -uroot world -e \"' + sql_queries[random.randint(0, len(sql_queries))] + '\"')
 
-
+os.system('mysql -uroot world -e \"' + sql_queries[random.randint(0, len(sql_queries))] + '\"')
