@@ -17,3 +17,6 @@ cp /etc/dd-agent/conf.d/apache.yaml.example /etc/dd-agent/conf.d/apache.yaml
 
 # Python script to replace certain lines with variables
 python yamlread.py 
+
+# Script to create apache timeboard
+python apache_create_timeboard_api.py
